@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">HH Migrasi</string>
+    <string name="logout">Logout</string>
+    <string name="device">Device</string>
+    <string name="logoutIDN">Keluar</string>
+    <string name="deviceIDN">Perangkat</string>
+
+    <!-- preferences -->
+    <string name="pref_ipDevice">IPDEVICE</string>
+    <string name="pref_user_login">USER</string>
+    <string name="pref_ipRelay">IPRELAY</string>
+    <string name="pref_ipWS">IPWS</string>
+
+    <!-- URL -->
+    <string name="linkLogin">Login</string>
+    <string name="linkLogout">Logout</string>
+</resources>

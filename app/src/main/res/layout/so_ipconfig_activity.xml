@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SOIPConfigActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_rounded"
+                    android:backgroundTint="@color/grey_200"
+                    android:layout_margin="15dp"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/titleIPServer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Isikan IP Server"
+                        android:textColor="@color/grey_800"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Web Service"
+                        android:textColor="@color/grey_800"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:gravity="center_horizontal"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="@color/grey_400"
+                        android:layout_margin="10dp"/>
+
+                    <TextView
+                        android:id="@+id/subtitleIPServer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Contoh Inputan :"
+                        android:textColor="@color/grey_600"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:gravity="center_horizontal"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="192.168.1.1"
+                        android:textColor="@color/blue_600"
+                        android:textStyle="bold"
+                        android:textSize="12sp"
+                        android:gravity="center_horizontal"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cvIPConfig"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="25dp"
+                        android:layout_marginBottom="20dp"
+                        android:visibility="visible"
+                        app:cardUseCompatPadding="false"
+                        app:cardBackgroundColor="@color/colorWhite"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="6dp"
+                        android:layout_weight="1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical|center_horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    android:padding="5dp">
+
+                                    <com.google.android.material.textfield.TextInputLayout
+                                        android:id="@+id/input_ipRelay"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <com.google.android.material.textfield.TextInputEditText
+                                            android:id="@+id/et_ipRelay"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:background="@color/colorWhite"
+                                            android:hint="IP Server Relay"
+                                            android:imeOptions="actionNext"
+                                            android:inputType="text"
+                                            android:maxLength="15"
+                                            android:maxLines="1"
+                                            android:singleLine="true"
+                                            android:textColor="@color/blue_600"
+                                            android:layout_margin="20dp"/>
+
+                                    </com.google.android.material.textfield.TextInputLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_marginBottom="20dp"
+                                    android:padding="5dp">
+
+                                    <androidx.appcompat.widget.AppCompatButton
+                                        android:id="@+id/btnClearRelay"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp"
+                                        android:text="HAPUS"
+                                        android:textAllCaps="false"
+                                        android:textColor="@color/colorWhite"
+                                        android:textStyle="bold"
+                                        android:background="@drawable/bg_rounded"
+                                        android:backgroundTint="@color/red_600"
+                                        android:clickable="true"
+                                        android:focusable="true"
+                                        android:layout_weight="0.5"
+                                        android:layout_marginRight="5dp"
+                                        android:layout_marginLeft="5dp"/>
+
+                                    <androidx.appcompat.widget.AppCompatButton
+                                        android:id="@+id/btnSaveRelay"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp"
+                                        android:text="SIMPAN"
+                                        android:textAllCaps="false"
+                                        android:textColor="@color/colorWhite"
+                                        android:textStyle="bold"
+                                        android:background="@drawable/bg_rounded"
+                                        android:backgroundTint="@color/green_600"
+                                        android:clickable="true"
+                                        android:focusable="true"
+                                        android:layout_weight="0.5"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginRight="5dp"/>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical|center_horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center"
+                                    android:orientation="vertical"
+                                    android:padding="5dp">
+
+                                    <com.google.android.material.textfield.TextInputLayout
+                                        android:id="@+id/input_ipVB"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+
+                                        <com.google.android.material.textfield.TextInputEditText
+                                            android:id="@+id/et_ipVB"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:background="@color/colorWhite"
+                                            android:hint="IP Server WS"
+                                            android:imeOptions="actionNext"
+                                            android:inputType="text"
+                                            android:maxLength="15"
+                                            android:maxLines="1"
+                                            android:singleLine="true"
+                                            android:textColor="@color/blue_600"
+                                            android:layout_margin="20dp"/>
+
+                                    </com.google.android.material.textfield.TextInputLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:layout_marginBottom="20dp"
+                                    android:padding="5dp">
+
+                                    <androidx.appcompat.widget.AppCompatButton
+                                        android:id="@+id/btnClearVB"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp"
+                                        android:text="HAPUS"
+                                        android:textAllCaps="false"
+                                        android:textColor="@color/colorWhite"
+                                        android:textStyle="bold"
+                                        android:background="@drawable/bg_rounded"
+                                        android:backgroundTint="@color/red_600"
+                                        android:clickable="true"
+                                        android:focusable="true"
+                                        android:layout_weight="0.5"
+                                        android:layout_marginRight="5dp"
+                                        android:layout_marginLeft="5dp"/>
+
+                                    <androidx.appcompat.widget.AppCompatButton
+                                        android:id="@+id/btnSaveVB"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="30dp"
+                                        android:text="SIMPAN"
+                                        android:textAllCaps="false"
+                                        android:textColor="@color/colorWhite"
+                                        android:textStyle="bold"
+                                        android:background="@drawable/bg_rounded"
+                                        android:backgroundTint="@color/green_600"
+                                        android:clickable="true"
+                                        android:focusable="true"
+                                        android:layout_weight="0.5"
+                                        android:layout_marginLeft="5dp"
+                                        android:layout_marginRight="5dp"/>
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

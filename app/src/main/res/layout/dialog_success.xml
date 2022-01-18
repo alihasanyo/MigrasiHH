@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvIPConfig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="20dp"
+            android:visibility="visible"
+            app:cardUseCompatPadding="false"
+            app:cardBackgroundColor="@color/colorWhite"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="6dp"
+            android:backgroundTint="@color/green_400">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_vertical|center_horizontal"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/ivSuccessDialog"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"/>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="5dp"/>
+
+                <TextView
+                    android:id="@+id/titleSuccessDialog"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Title put here"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:gravity="center_horizontal"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnCLose"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="Close"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:background="@drawable/bg_rounded"
+                    android:backgroundTint="@color/blue_700"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_weight="2"
+                    android:layout_margin="10dp"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</RelativeLayout>

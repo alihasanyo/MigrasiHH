@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.github.florent37.shapeofview.shapes.ArcView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:elevation="4dp"
+        app:shape_arc_height="40dp"
+        app:shape_arc_position="bottom">
+
+        <ImageView
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/wallpaper"
+            android:scaleType="centerCrop" />
+
+    </com.github.florent37.shapeofview.shapes.ArcView>
+
+</LinearLayout>

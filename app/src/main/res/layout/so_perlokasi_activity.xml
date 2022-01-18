@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.SOPerLokasiActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/bg_rounded"
+                    android:backgroundTint="@color/grey_200"
+                    android:layout_margin="10dp"
+                    android:padding="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical|center_horizontal">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/input_lok"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.8">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/et_lok"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/colorWhite"
+                                android:hint="Lokasi"
+                                android:imeOptions="actionNext"
+                                android:inputType="text"
+                                android:maxLength="30"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:textColor="@color/grey_700"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"/>
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <ImageView
+                            android:id="@+id/ivcek_lok"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="6"
+                            android:layout_marginRight="5dp"
+                            android:src="@drawable/ic_check_circle"
+                            app:tint="@color/blue_600"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center_vertical|center_horizontal">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/input_plu"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.8">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/et_plu"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/colorWhite"
+                                android:hint="PLU"
+                                android:imeOptions="actionNext"
+                                android:inputType="text"
+                                android:maxLength="30"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:textColor="@color/grey_700"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"/>
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btnEditPlu"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Edit"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorWhite"
+                            android:textStyle="bold"
+                            android:background="@drawable/bg_rounded"
+                            android:backgroundTint="@color/green_700"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:layout_weight="2"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="5dp"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/settitleDesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Deskripsi Barang"
+                        android:textColor="@color/grey_700"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:gravity="left"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="5dp"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginBottom="10dp"
+                        android:visibility="visible"
+                        app:cardUseCompatPadding="false"
+                        app:cardBackgroundColor="@color/colorWhite"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="6dp">
+
+                        <TextView
+                            android:id="@+id/descSOStorage"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="192.168.1.1"
+                            android:textColor="@color/grey_600"
+                            android:textSize="13sp"
+                            android:layout_margin="10dp"/>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/input_Frac"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/et_frac"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/colorWhite"
+                            android:hint="Frac"
+                            android:imeOptions="actionNext"
+                            android:inputType="text"
+                            android:maxLength="30"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:textColor="@color/grey_700"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="120dp"/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:id="@+id/titleQtyLama"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Qty Lama"
+                            android:textColor="@color/grey_700"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:gravity="center"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="0.8"
+                            android:layout_gravity="center_horizontal|center_vertical"/>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/input_Lamaqty"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.8">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/et_Lamaqty"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/colorWhite"
+                                android:hint="CTN"
+                                android:imeOptions="actionNext"
+                                android:inputType="text"
+                                android:maxLength="30"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:textColor="@color/grey_700"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"/>
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/input_Lamapcs"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.8">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/et_Lamapcs"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/colorWhite"
+                                android:hint="Pcs"
+                                android:imeOptions="actionNext"
+                                android:inputType="text"
+                                android:maxLength="30"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:textColor="@color/grey_700"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"/>
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:id="@+id/titleQtyBaru"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Qty Baru"
+                            android:textColor="@color/grey_700"
+                            android:textStyle="bold"
+                            android:textSize="15sp"
+                            android:gravity="center"
+                            android:layout_marginLeft="15dp"
+                            android:layout_weight="0.8"
+                            android:layout_gravity="center_horizontal|center_vertical"/>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/input_Baruqty"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.8">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/et_Baruqty"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/colorWhite"
+                                android:hint="CTN"
+                                android:imeOptions="actionNext"
+                                android:inputType="text"
+                                android:maxLength="30"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:textColor="@color/grey_700"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"/>
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:id="@+id/input_Barupcs"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.8">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/et_Barupcs"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/colorWhite"
+                                android:hint="Pcs"
+                                android:imeOptions="actionNext"
+                                android:inputType="text"
+                                android:maxLength="30"
+                                android:maxLines="1"
+                                android:singleLine="true"
+                                android:textColor="@color/grey_700"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"/>
+
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:padding="10dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="30dp">
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btnSubmitStorage"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Submit"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorWhite"
+                            android:textStyle="bold"
+                            android:background="@drawable/bg_rounded"
+                            android:backgroundTint="@color/green_700"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:layout_weight="2"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="5dp"/>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btnClearStorage"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Clear"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorWhite"
+                            android:textStyle="bold"
+                            android:background="@drawable/bg_rounded"
+                            android:backgroundTint="@color/yellow_700"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:layout_weight="2"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="5dp"/>
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btnExitStorage"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Exit"
+                            android:textAllCaps="false"
+                            android:textColor="@color/colorWhite"
+                            android:textStyle="bold"
+                            android:background="@drawable/bg_rounded"
+                            android:backgroundTint="@color/orange_700"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:layout_weight="2"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="5dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

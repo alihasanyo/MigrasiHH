@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SOInfoPLU">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_rounded"
+                android:backgroundTint="@color/grey_200"
+                android:layout_margin="15dp"
+                android:padding="10dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="10dp"
+                    android:visibility="visible"
+                    app:cardUseCompatPadding="false"
+                    app:cardBackgroundColor="@color/colorWhite"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="6dp">
+
+                    <TextView
+                        android:id="@+id/tvInfoPlu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="ini adalah bagian info / summary SO PLU"
+                        android:textColor="@color/grey_700"
+                        android:textSize="13sp"
+                        android:layout_margin="10dp"/>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Indomarco/android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
+        <entry key="..\:/Indomarco/android/app/src/main/res/drawable/bg_rounded.xml" value="0.91875" />
+        <entry key="..\:/Indomarco/android/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
+        <entry key="..\:/Indomarco/android/app/src/main/res/drawable/ic_search.xml" value="0.3828125" />
+        <entry key="..\:/Indomarco/android/app/src/main/res/layout/bg_rounded.xml" value="0.2644927536231884" />
+        <entry key="..\:/Indomarco/android/app/src/main/res/layout/bg_top_home.xml" value="0.5" />
+        <entry key="..\:/Indomarco/android/app/src/main/res/layout/dialog_so_handheld.xml" value="0.67" />
+        <entry key="..\:/Indomarco/android/app/src/main/res/layout/home_activity.xml" value="0.75" />
+        <entry key="..\:/Indomarco/android/app/src/main/res/layout/login_activity.xml" value="0.67" />
+        <entry key="..\:/Indomarco/android/app/src/main/res/layout/search_bar_rounded.xml" value="0.26766304347826086" />
+        <entry key="..\:/Indomarco/android/app/src/main/res/layout/so_info_plu_activity.xml" value="0.67" />
+        <entry key="..\:/Indomarco/android/app/src/main/res/layout/so_inquiry_plano_ctivity.xml" value="0.75" />
+        <entry key="..\:/Indomarco/android/app/src/main/res/layout/so_ipconfig_activity.xml" value="0.67" />
+        <entry key="..\:/Indomarco/android/app/src/main/res/layout/so_per_sub_rak_activity.xml" value="0.75" />
+        <entry key="..\:/Indomarco/android/app/src/main/res/layout/so_perlokasi_activity.xml" value="0.75" />
+        <entry key="..\:/Indomarco/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3828125" />
+        <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/drawable/ic_account.xml" value="0.91875" />
+        <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/drawable/ic_infoapps.xml" value="0.91875" />
+        <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/drawable/ic_search.xml" value="0.91875" />
+        <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/bg_top_home.xml" value="0.5446428571428571" />
+        <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/dialog_device.xml" value="0.75" />
+        <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/dialog_error.xml" value="0.75" />
+        <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/dialog_menu_other.xml" value="0.75" />
+        <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/dialog_so_handheld.xml" value="0.5049603174603174" />
+        <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/dialog_success.xml" value="0.9" />
+        <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/fragment_menu.xml" value="0.5287698412698413" />
+        <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/home_activity.xml" value="0.9" />
+        <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/item_list_other_menu.xml" value="0.75" />
+        <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/login_activity.xml" value="0.9" />
+        <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/setting_activity.xml" value="0.75" />
+        <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/so_info_plu_activity.xml" value="0.5287698412698413" />
+        <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/so_inquiry_plano_ctivity.xml" value="0.67" />
+        <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/so_ipconfig_activity.xml" value="0.9" />
+        <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/so_per_sub_rak_activity.xml" value="0.9" />
+        <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/so_perlokasi_activity.xml" value="0.9" />
+        <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/so_storage_kecil_activity.xml" value="0.9" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
