@@ -44,9 +44,11 @@ public class SettingActivity extends AppCompatActivity {
         {
             listMenu.add(new MainMenuModel(1, R.drawable.ic_infoapps, activity.getResources().getString(R.string.device), "Device Information"));
             listMenu.add(new MainMenuModel(2, R.drawable.ic_logout, activity.getResources().getString(R.string.logout), "Account Logout"));
+            listMenu.add(new MainMenuModel(3, R.drawable.ip1, activity.getResources().getString(R.string.setIP), "Connect Configuration"));
         } else {
             listMenu.add(new MainMenuModel(1, R.drawable.ic_infoapps, activity.getResources().getString(R.string.deviceIDN), "Informasi Perangkat"));
             listMenu.add(new MainMenuModel(2, R.drawable.ic_logout, activity.getResources().getString(R.string.logoutIDN), "Keluar Akun"));
+            listMenu.add(new MainMenuModel(3, R.drawable.ip1, activity.getResources().getString(R.string.setIPIDN), "Konfigurasi Koneksi"));
         }
 
         mAdapter = new MenuOtherAdapter(activity, listMenu);

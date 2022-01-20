@@ -20,6 +20,7 @@
         <entry key="..\:/Indomarco/android/app/src/main/res/layout/so_perlokasi_activity.xml" value="0.75" />
         <entry key="..\:/Indomarco/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.3828125" />
         <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/drawable/ic_account.xml" value="0.91875" />
+        <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/drawable/ic_check_circle.xml" value="0.91875" />
         <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/drawable/ic_infoapps.xml" value="0.91875" />
         <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/drawable/ic_search.xml" value="0.91875" />
         <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/bg_top_home.xml" value="0.5446428571428571" />
@@ -31,6 +32,7 @@
         <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/fragment_menu.xml" value="0.5287698412698413" />
         <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/home_activity.xml" value="0.9" />
         <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/item_list_other_menu.xml" value="0.75" />
+        <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/item_list_set_ip.xml" value="0.75" />
         <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/login_activity.xml" value="0.9" />
         <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/setting_activity.xml" value="0.75" />
         <entry key="..\:/Indomarco/migrasiHH/app/src/main/res/layout/so_info_plu_activity.xml" value="0.5287698412698413" />

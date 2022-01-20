@@ -2,8 +2,10 @@
     <string name="app_name">HH Migrasi</string>
     <string name="logout">Logout</string>
     <string name="device">Device</string>
+    <string name="setIP">IP Settings</string>
     <string name="logoutIDN">Keluar</string>
     <string name="deviceIDN">Perangkat</string>
+    <string name="setIPIDN">Pengaturan IP</string>
 
     <!-- preferences -->
     <string name="pref_ipDevice">IPDEVICE</string>
@@ -14,4 +16,6 @@
     <!-- URL -->
     <string name="linkLogin">Login</string>
     <string name="linkLogout">Logout</string>
+    <string name="linkVersionRelay">checkVersionRelay</string>
+    <string name="linkVersionWS">checkVersionVB</string>
 </resources>
