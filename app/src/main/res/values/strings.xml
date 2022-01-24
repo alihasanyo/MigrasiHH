@@ -18,4 +18,8 @@
     <string name="linkLogout">Logout</string>
     <string name="linkVersionRelay">checkVersionRelay</string>
     <string name="linkVersionWS">checkVersionVB</string>
+    <string name="linkSOLok_GetLokasi">SONASLokasi_GetLokasi</string>
+    <string name="linkSOLok_GetPlu">SONASLokasi_GetPlu</string>
+    <string name="linkSOLok_Inital">SONASCheck_Initial</string>
+    <string name="linkSOLok_Submit">SONASLokasi_Submit</string>
 </resources>
