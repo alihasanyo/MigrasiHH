@@ -31,7 +31,7 @@ public class SOPerSubRakActivity extends AppCompatActivity {
     private LinearLayout lyNottr;
     private TextInputLayout plu,frac,ctn,pcs;
     private TextInputEditText etplu, etfrac, etctn, etpcs;
-    private Button btnSubmit, btnClear, btnExit;
+    private Button btnSubmit, btnClear, btnExit, btnSearch;
     private TextView titleRak, tvTransaksiKosong;
     private SharedPreferences flagBHS;
     private String getBHS;
@@ -60,6 +60,7 @@ public class SOPerSubRakActivity extends AppCompatActivity {
         btnClear = findViewById(R.id.btnClearDis);
         btnSubmit = findViewById(R.id.btnSubmitDis);
         btnExit = findViewById(R.id.btnExitDis);
+        btnSearch = findViewById(R.id.btnCariSODisplay);
 
         titleRak = findViewById(R.id.titleRak);
         tvTransaksiKosong = findViewById(R.id.tvTransaksiKosong);
@@ -74,6 +75,7 @@ public class SOPerSubRakActivity extends AppCompatActivity {
             btnClear.setText("Hapus");
             btnExit.setText("Keluar");
             btnSubmit.setText("Kirim");
+            btnSearch.setText("Cari");
             titleRak.setText("Rak");
             tvTransaksiKosong.setText("Transaksi Kosong");
             hintSearch = "Cari disini...";
@@ -82,6 +84,7 @@ public class SOPerSubRakActivity extends AppCompatActivity {
             btnClear.setText("Clear");
             btnExit.setText("Exit");
             btnSubmit.setText("Submit");
+            btnSearch.setText("Search");
             titleRak.setText("Rack");
             tvTransaksiKosong.setText("Empty Transaction");
             hintSearch = "Search here...";

@@ -31,7 +31,7 @@
                         android:id="@+id/titleRak"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="15dp"
+                        android:layout_marginLeft="10dp"
                         android:layout_weight="1"
                         android:text="Rak"
                         android:textColor="@color/grey_800"
@@ -41,19 +41,34 @@
                         android:layout_width="match_parent"
                         android:layout_height="40dp"
                         android:layout_margin="10dp"
-                        android:layout_weight="0.2"
+                        android:layout_weight="0.4"
                         android:background="@drawable/bg_rounded">
 
                         <androidx.appcompat.widget.SearchView
                             android:id="@+id/search_listSODisplay"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
-                            android:layout_weight="3"
+                            android:layout_weight="1"
                             android:background="@color/colorWhite"
                             app:iconifiedByDefault="false"
                             app:queryBackground="@android:color/transparent" />
 
                     </LinearLayout>
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnCariSODisplay"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:text="Cari"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold"
+                        android:background="@drawable/bg_rounded"
+                        android:backgroundTint="@color/blue_400"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:layout_weight="1"
+                        android:layout_marginRight="5dp"/>
 
                 </LinearLayout>
 
