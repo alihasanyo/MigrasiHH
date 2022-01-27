@@ -22,4 +22,8 @@
     <string name="linkSOLok_GetPlu">SONASLokasi_GetPlu</string>
     <string name="linkSOLok_Inital">SONASCheck_Initial</string>
     <string name="linkSOLok_Submit">SONASLokasi_Submit</string>
+
+    <string name="linkSO_StoreKecil_GetPlu">SONASShelving_GetPLU</string>
+    <string name="linkSO_StoreKecil_GetList">SONASShelving_GetList</string>
+    <string name="linkSO_StoreKecil_Submit">SONASShelving_Submit</string>
 </resources>
