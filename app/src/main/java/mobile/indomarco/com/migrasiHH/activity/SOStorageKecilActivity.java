@@ -272,9 +272,6 @@ public class SOStorageKecilActivity extends AppCompatActivity {
                     dialogExit();
                 }
 
-                Intent exit = new Intent(SOStorageKecilActivity.this, HomeActivity.class);
-                exit.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
-                startActivity(exit);
             }
         });
 

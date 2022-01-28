@@ -28,4 +28,6 @@
     <string name="linkSO_StoreKecil_Submit">SONASShelving_Submit</string>
 
     <string name="linkInfoPlu">SONAS_GetSatuanPLU</string>
+
+    <string name="linkInqPlano">Tools_InquiryPlano</string>
 </resources>

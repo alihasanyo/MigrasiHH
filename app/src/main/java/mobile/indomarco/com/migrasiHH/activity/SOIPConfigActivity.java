@@ -154,7 +154,7 @@ public class SOIPConfigActivity extends AppCompatActivity {
                         inputIPVB.setError(ID_cond1);
                     } else {
                         mdl.setIpWS(activity, etIPVB.getText().toString());
-                        dialogSaveIP("IP WS");
+                        dialogSaveIP(etIPVB.getText().toString());
                     }
 
                 }
@@ -165,7 +165,7 @@ public class SOIPConfigActivity extends AppCompatActivity {
                         inputIPVB.setError(ENG_cond1);
                     } else {
                         mdl.setIpWS(activity, etIPVB.getText().toString());
-                        dialogSaveIP("IP WS");
+                        dialogSaveIP(etIPVB.getText().toString());
                     }
 
                 }
@@ -183,7 +183,7 @@ public class SOIPConfigActivity extends AppCompatActivity {
                             inputIP.setError(ID_cond1);
                         } else {
                             mdl.setIpRelay(activity, etIP.getText().toString());
-                            dialogSaveIP("IP Relay");
+                            dialogSaveIP(etIP.getText().toString());
                         }
 
                     }
@@ -193,7 +193,7 @@ public class SOIPConfigActivity extends AppCompatActivity {
                             inputIP.setError(ENG_cond1);
                         } else {
                             mdl.setIpRelay(activity, etIP.getText().toString());
-                            dialogSaveIP("IP Relay");
+                            dialogSaveIP(etIP.getText().toString());
                         }
 
                     }
@@ -245,9 +245,9 @@ public class SOIPConfigActivity extends AppCompatActivity {
     private void InfosaveData(String ip_config) {
 
         if (getBHS.equals("ENG")){
-            Toast.makeText(SOIPConfigActivity.this, "Data connection saved", Toast.LENGTH_SHORT).show();
+            Toast.makeText(SOIPConfigActivity.this, "Data connection saved for " + ip_config, Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(SOIPConfigActivity.this, "Koneksi Data tersimpan", Toast.LENGTH_SHORT).show();
+            Toast.makeText(SOIPConfigActivity.this, "Koneksi Data tersimpan untuk " + ip_config, Toast.LENGTH_SHORT).show();
         }
     }
 
